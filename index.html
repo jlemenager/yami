@@ -3,9 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Yami</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello welcome to Yami!</h1>
+    <nav>
+        <div className='nav-left'>
+            <img className="logo" src="images/yami.png" alt="logo" />
+            <h1 className='nav-header'>yami</h1>
+        </div>
+    </nav>
+    <section id="hero-section">
+        <div className='hero-half-section'>
+            <img className="hero-img" src="images/yami-hero.png" alt="phone number" />
+        </div>
+        <div className='hero-text'>
+            <h1>Your <span className='hero-bold-text'>AI nutrition coach</span> in a snap.</h1>
+            <h2>No calorie tracking. No restrictions. Just a friendly, nutritional coach to reach your goals faster.</h2>
+            <button className="hero-button">Try for Free</button>
+        </div>
+        <div className='blob blob-left'></div>
+        <div className='blob blob-right'></div>
+    </section>
 </body>
 </html>
