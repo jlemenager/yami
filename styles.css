@@ -179,4 +179,41 @@ img{
       opacity: 1;
   }
 }
+@media screen and (max-width:1400px) {
+  nav{
+    margin-bottom: 100px;
+  }
+  .hero-img{
+    margin-left:40%;
+  }
+  .hero-text{
+    width:60vw;
+  }
+}
+@media screen and (max-width:1300px) {
+  #hero-section{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap:150px;
+  }
+  .hero-text{
+    width:100vw;
+    margin-left:30vw;
+  }
+  h1{
+    margin-top: 80px;
+  }
+  .hero-half-section{
+    width:100vw;
+  }
+  .hero-img{
+    margin: 0 auto;
+  }
+}
+@media  screen and (max-width:800px) {
+  h1{
+      margin-top: 50px;
+    }
+}
 
